@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблиця Варіант 3</title>
+    <link rel="stylesheet" type="text/css" href="task2.css">
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            display: flex;
+        }
+
+        td {
+            border: 1px solid black;
+            padding: 25px;
+            text-align: center;
+            font-size: 25px;
+        }
+
+        tr:nth-child(1) {
+            background-color: #038f8f;
+            color: #060B12;
+        }
+
+        tr:nth-child(2) {
+            background-color: #f5f503;
+            color: #081326;
+        }
+
+        tr:nth-child(1):hover {
+            background-color: #f5f503;
+            color: #081326;
+        }
+
+        tr:nth-child(2):hover {
+            background-color: #038f8f;
+            color: #060B12;
+        }
+
+        .table-container {
+            display: flex;
+            flex-direction: column;
+        }
+
+    </style>
+</head>
+<body>
+<div class="table-container">
+    <table>
+        <tr>
+            <td rowspan="2">Микитенко</td>
+            <td colspan="1">Ірина</td>
+            <td colspan="2" rowspan="2">Вікторівна</td>
+        </tr>
+        <tr>
+            <td colspan="1">ІА-22, ЛР-2, Варіант3</td>
+        </tr>
+        <tr>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+        </tr>
+        <tr>
+            <td colspan="1"></td>
+            <td colspan="1"></td>
+            <td colspan="2"></td>
+        </tr>
+    </table>
+    <div id="container">
+        <div id="square1"></div>
+        <div id="square2"></div>
+        <div id="square3"></div>
+    </div>
+</div>
+</body>
+</html>

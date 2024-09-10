@@ -1,0 +1,31 @@
+#container {
+    position: relative;
+}
+
+#square1, #square2, #square3 {
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+#square1 {
+    background: #b8cce3;
+    margin-top: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(100px, 30px) rotate(45deg);
+}
+
+#square2 {
+    background: #ffff00;
+    position: absolute;
+    transform: translate(36px, 153px) rotate(14deg);
+}
+
+#square3 {
+    background: #ca0065;
+    position: relative;
+    transform: translate(164px, 153px) rotate(-14deg);
+}
