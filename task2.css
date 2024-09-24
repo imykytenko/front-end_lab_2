@@ -1,5 +1,13 @@
-#container {
+.pictures{
+    display: flex;
+}
+
+#container1 {
     position: relative;
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+    display: flex;
 }
 
 #square1, #square2, #square3 {
@@ -7,25 +15,53 @@
     height: 100px;
     border-radius: 15px;
     border: 2px solid black;
+    position: absolute;
 }
 
 #square1 {
     background: #b8cce3;
-    margin-top: 20px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    transform: translate(100px, 30px) rotate(45deg);
+    top: 20px;
+    left: 100px;
+    rotate: 45deg;
 }
 
 #square2 {
     background: #ffff00;
-    position: absolute;
-    transform: translate(36px, 153px) rotate(14deg);
+    top: 130px;
+    left: 35px;
+    rotate: 15deg;
 }
 
 #square3 {
     background: #ca0065;
-    position: relative;
-    transform: translate(164px, 153px) rotate(-14deg);
+    top: 130px;
+    left: 165px;
+    rotate: -15deg;
+}
+
+#container2{
+    display: flex;
+
+}
+
+#square4, #square5, #square6 {
+    width: 100px;
+    height: 100px;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+#square4 {
+    background: #b8cce3;
+    transform: translate(100px, 40px) rotate(45deg);
+}
+
+#square5 {
+    background: #ffff00;
+    transform: translate(-67px, 153px) rotate(14deg);
+}
+
+#square6 {
+    background: #ca0065;
+    transform: translate(-41px, 153px) rotate(-14deg);
 }
